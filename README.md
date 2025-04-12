@@ -1,1 +1,3 @@
-# goit-markup-hw-06
+# my-first-project
+nice project
+this is
