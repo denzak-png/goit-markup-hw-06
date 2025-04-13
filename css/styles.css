@@ -638,7 +638,6 @@ padding: 0;
 .our-team-item {
     background-color: #ffffff;
     border-radius: 0px 0px 4px 4px;
-    flex-basis: calc((100% - 72px) / 4);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     
 }
@@ -720,8 +719,106 @@ padding: 0;
     row-gap: 64px;
     column-gap: 24px;
 }
-.our-team-item {
-   
+
 }
- 
+
+@media screen and (min-width: 1158px) {
+    .our-team {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+}
+
+.our-portfolio {
+    background-color: #FFFFFF;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+
+.our-portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+
+.our-portfolio-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+
+.our-portfolio-item {
+    width: calc((100%-16px) / 2);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+.our-portfolio-item:hover .our-portfolio-item-text {
+    transform: translateY(0);
+}
+
+
+
+.our-portfolio-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;
+}
+
+
+
+.border-text {
+    border: 1px solid#E7E9FC;
+    border-top: none;
+    padding: 32px 16px;
+}
+
+
+
+.our-portfolio-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+
+.our-portfolio-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.our-portfolio-picture-wrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.our-portfolio-item-text {
+    position: absolute;
+    top: 0;
+    background-color: #4d5ae5;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 300ms ease;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
