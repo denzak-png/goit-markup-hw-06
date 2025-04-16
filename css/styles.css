@@ -102,7 +102,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
 }
 
 .logo-web {
@@ -291,13 +290,14 @@ padding: 0;
 }
 
 
-
-
-.mobile-menu-item {
+    
+.mobile-menu-list {
     display: flex;
-    text-align: center;
-    gap: 40px;
+        flex-direction: column;
+        gap: 40px;
 }
+
+
 
 .mobile-menu-link {
     font-weight: 700;
@@ -305,8 +305,6 @@ padding: 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 24px;
-    padding-bottom: 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -331,6 +329,7 @@ padding: 0;
 .mobile-adress {
     font-style: normal;
     display: block;
+    margin-bottom: 48px;
 }
 
 .mobile-contact-list {
@@ -359,7 +358,6 @@ padding: 0;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
-    margin-top: 48px;
     
 }
 
@@ -398,7 +396,7 @@ padding: 0;
     background-color: #2e2f42;
     text-align: center;
     padding-top: 72px;
-    max-width: 320;
+    max-width: 320px;
     margin: 0 auto;
     padding-bottom: 72px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
@@ -495,8 +493,8 @@ padding: 0;
     }
 }
 
-.icon-advantages {
-    visibility: hidden;
+.icon-advantages-list {
+        display: none;
 }
 
 .advantages {
@@ -679,7 +677,6 @@ padding: 0;
 
 .social-network-list {
     display: flex;
-    justify-content: center;
     gap: 24px;
     align-items: center;
     flex-direction: row;
