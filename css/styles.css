@@ -454,8 +454,8 @@ padding: 0;
     .hero {
             background-color: #2e2f42;
             padding-top: 112px;
-            padding-bottom: 204px;
-            max-width: 768;
+            padding-bottom: 112px;
+            max-width: 768px;
            
 }
 
@@ -566,6 +566,8 @@ padding: 0;
 }
 
 @media screen and (min-width: 1158px) {
+
+
     .advantages {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -670,17 +672,28 @@ padding: 0;
     align-items: center;
 }
 
+
+
+
 .our-team-value {
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.social-network-list {
+
+.social-network-list{
     display: flex;
-    gap: 24px;
     align-items: center;
     flex-direction: row;
 }
+
+.our-team-soc-list {
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+}
+
+
 
 .social-network-item {
     width: 40px;
@@ -1034,6 +1047,9 @@ padding: 0;
     .footer {
         padding-top: 100px;
             padding-bottom: 100px;
+
+    }
+    .footer-container {
         max-width: 1440px;
     }
 }

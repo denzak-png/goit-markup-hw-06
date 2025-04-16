@@ -115,7 +115,7 @@ for Your Business
   </div>
  </section>
   <section class="advantages">
-  <div class="container">
+  <div class="container advantages-container">
  <h2 class="visually-hidden">Advantages</h2>
  <ul class="advantages-list">
   <li class="advantages-item">
@@ -171,7 +171,7 @@ problem to walk away with the perfect and creative solution.</p>
     <div class="our-team-value">
     <h3 class="our-team-subtitle">Mark Guerrero</h3>
     <p class="our-team-description">Product Designer</p>
-    <ul class="social-network-list">
+    <ul class="social-network-list our-team-soc-list">
       <li class="social-network-item">
         <a href="" class="social-network-link">
           <svg class="social-network-icon" aria-label="іконка інстаграму" width="16" height="16">
@@ -212,7 +212,7 @@ problem to walk away with the perfect and creative solution.</p>
       <div class="our-team-value">
       <h3 class="our-team-subtitle">Tom Ford</h3>
     <p class="our-team-description">Frontend Developer</p>
-    <ul class="social-network-list">
+    <ul class="social-network-list our-team-soc-list">
       <li class="social-network-item">
         <a href="" class="social-network-link">
           <svg class="social-network-icon" aria-label="іконка інстаграму" width="16" height="16">
@@ -253,7 +253,7 @@ problem to walk away with the perfect and creative solution.</p>
     <div class="our-team-value">
     <h3 class="our-team-subtitle">Camila Garcia</h3>
     <p class="our-team-description">Marketing</p>
-    <ul class="social-network-list">
+    <ul class="social-network-list our-team-soc-list">
       <li class="social-network-item">
         <a href="" class="social-network-link">
           <svg class="social-network-icon" aria-label="іконка інстаграму" width="16" height="16">
@@ -294,7 +294,7 @@ problem to walk away with the perfect and creative solution.</p>
     <div class="our-team-value">
     <h3 class="our-team-subtitle">Daniel Wilson</h3>
     <p class="our-team-description">UI Designer</p>
-    <ul class="social-network-list">
+    <ul class="social-network-list our-team-soc-list">
       <li class="social-network-item">
         <a href="" class="social-network-link">
           <svg class="social-network-icon" aria-label="іконка інстаграму" width="16" height="16">
@@ -334,24 +334,19 @@ problem to walk away with the perfect and creative solution.</p>
 <h2 class="our-portfolio-title">Our Portfolio</h2>
 <ul class="our-portfolio-list">
   <li class="our-portfolio-item">
-    <picture>
-      <source
-      media="(min-width: 1158px)"
-      srcset="
-      ./images/portfolio/portfolio-desk-1-min.jpg 1x,
-       ./images/portfolio/portfolio-desk-1@2x-min.jpg 2x">
-      <source media="(min-width: 768px)" srcset="
-            ./images/portfolio/portfolio-tab-1-min.jpg 1x,
-             ./images/portfolio/portfolio-tab-1@2x-min.jpg 2x">
-    <source media="(max-width: 767px)" srcset="
-                ./images/portfolio/portfolio-mob-1-min.jpg 1x,
-                 ./images/portfolio/portfolio-mob-1@2x-min.jpg 2x">
-    </picture>
     <div class="our-portfolio-picture-wrap">
-    <img 
-    src="./images/img6.jpg"
-    alt="Banking App"
-    width="360">
+      <picture>
+        <source media="(min-width: 1158px)" srcset="
+            ./images/portfolio/portfolio-desk-1-min.jpg 1x,
+             ./images/portfolio/portfolio-desk-1@2x-min.jpg 2x">
+        <source media="(min-width: 768px)" srcset="
+                  ./images/portfolio/portfolio-tab-1-min.jpg 1x,
+                   ./images/portfolio/portfolio-tab-1@2x-min.jpg 2x">
+        <source media="(max-width: 767px)" srcset="
+                      ./images/portfolio/portfolio-mob-1-min.jpg 1x,
+                       ./images/portfolio/portfolio-mob-1@2x-min.jpg 2x">
+                      <img src="./images/img6.jpg" alt="Banking App" width="360">
+      </picture>
     <p class="our-portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
       App · Exotic Fruit Ecommerce App ·
       Cloud Storage App</p>
@@ -362,22 +357,19 @@ problem to walk away with the perfect and creative solution.</p>
     </div>
   </li>
   <li class="our-portfolio-item">
-    <picture>
-    <source media="(min-width: 1158px)" srcset="
-                ./images/portfolio/portfolio-desk-2-min.jpg 1x,
-                 ./images/portfolio/portfolio-desk-2@2x-min.jpg 2x">
-    <source media="(min-width: 768px)" srcset="
-                    ./images/portfolio/portfolio-tab-2-min.jpg 1x,
-                     ./images/portfolio/portfolio-tab-2@2x-min.jpg 2x">
-    <source media="(max-width: 767px)" srcset="
-                    ./images/portfolio/portfolio-mob-2-min.jpg 1x,
-                     ./images/portfolio/portfolio-mob-2@2x-min.jpg 2x">
-    </picture>
   <div class="our-portfolio-picture-wrap">
-    <img 
-    src="./images/img7.jpg"
-    alt="Cashless Payment" 
-    width="360">
+  <picture>
+    <source media="(min-width: 1158px)" srcset="
+                  ./images/portfolio/portfolio-desk-2-min.jpg 1x,
+                   ./images/portfolio/portfolio-desk-2@2x-min.jpg 2x">
+    <source media="(min-width: 768px)" srcset="
+                      ./images/portfolio/portfolio-tab-2-min.jpg 1x,
+                       ./images/portfolio/portfolio-tab-2@2x-min.jpg 2x">
+    <source media="(max-width: 767px)" srcset="
+                      ./images/portfolio/portfolio-mob-2-min.jpg 1x,
+                       ./images/portfolio/portfolio-mob-2@2x-min.jpg 2x">
+    <img src="./images/img7.jpg" alt="Cashless Payment" width="360">
+  </picture>
     <p class="our-portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
       App · Exotic Fruit Ecommerce App ·
       Cloud Storage App</p>
@@ -388,22 +380,19 @@ problem to walk away with the perfect and creative solution.</p>
     </div>
   </li>
   <li class="our-portfolio-item">
-    <picture>
-      <source media="(min-width: 1158px)" srcset="
+    <div class="our-portfolio-picture-wrap">
+<picture>
+  <source media="(min-width: 1158px)" srcset="
                     ./images/portfolio/portfolio-desk-3-min.jpg 1x,
                      ./images/portfolio/portfolio-desk-3@2x-min.jpg 2x">
-      <source media="(min-width: 768px)" srcset="
+  <source media="(min-width: 768px)" srcset="
                         ./images/portfolio/portfolio-tab-3-min.jpg 1x,
                          ./images/portfolio/portfolio-tab-3@2x-min.jpg 2x">
-      <source media="(max-width: 767px)" srcset="
+  <source media="(max-width: 767px)" srcset="
                         ./images/portfolio/portfolio-mob-3-min.jpg 1x,
                          ./images/portfolio/portfolio-mob-3@2x-min.jpg 2x">
-    </picture>
-    <div class="our-portfolio-picture-wrap">
-    <img 
-    src="./images/img8.jpg"
-    alt="Meditation App" 
-    width="360">
+  <img src="./images/img8.jpg" alt="Meditation App" width="360">
+</picture>
     <p class="our-portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
       App · Exotic Fruit Ecommerce App ·
       Cloud Storage App</p>
@@ -414,22 +403,19 @@ problem to walk away with the perfect and creative solution.</p>
     </div>
   </li>
   <li class="our-portfolio-item">
-    <picture>
-      <source media="(min-width: 1158px)" srcset="
-                    ./images/portfolio/portfolio-desk-4-min.jpg 1x,
-                     ./images/portfolio/portfolio-desk-4@2x-min.jpg 2x">
-      <source media="(min-width: 768px)" srcset="
-                        ./images/portfolio/portfolio-tab-4-min.jpg 1x,
-                         ./images/portfolio/portfolio-tab-4@2x-min.jpg 2x">
-      <source media="(max-width: 767px)" srcset="
-                        ./images/portfolio/portfolio-mob-4-min.jpg 1x,
-                         ./images/portfolio/portfolio-mob-4@2x-min.jpg 2x">
-    </picture>
     <div class="our-portfolio-picture-wrap">
-    <img 
-    src="./images/img9.jpg"
-    alt="Taxi Service" 
-    width="360">
+  <picture>
+    <source media="(min-width: 1158px)" srcset="
+                      ./images/portfolio/portfolio-desk-4-min.jpg 1x,
+                       ./images/portfolio/portfolio-desk-4@2x-min.jpg 2x">
+    <source media="(min-width: 768px)" srcset="
+                          ./images/portfolio/portfolio-tab-4-min.jpg 1x,
+                           ./images/portfolio/portfolio-tab-4@2x-min.jpg 2x">
+    <source media="(max-width: 767px)" srcset="
+                          ./images/portfolio/portfolio-mob-4-min.jpg 1x,
+                           ./images/portfolio/portfolio-mob-4@2x-min.jpg 2x">
+    <img src="./images/img9.jpg" alt="Taxi Service" width="360">
+  </picture>
     <p class="our-portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
       App · Exotic Fruit Ecommerce App ·
       Cloud Storage App</p>
@@ -440,22 +426,19 @@ problem to walk away with the perfect and creative solution.</p>
     </div>
   </li>
   <li class="our-portfolio-item">
-    <picture>
-      <source media="(min-width: 1158px)" srcset="
-                    ./images/portfolio/portfolio-desk-5-min.jpg 1x,
-                     ./images/portfolio/portfolio-desk-5@2x-min.jpg 2x">
-      <source media="(min-width: 768px)" srcset="
-                        ./images/portfolio/portfolio-tab-5-min.jpg 1x,
-                         ./images/portfolio/portfolio-tab-5@2x-min.jpg 2x">
-      <source media="(max-width: 767px)" srcset="
-                        ./images/portfolio/portfolio-mob-5-min.jpg 1x,
-                         ./images/portfolio/portfolio-mob-5@2x-min.jpg 2x">
-    </picture>
     <div class="our-portfolio-picture-wrap">
-    <img 
-    src="./images/img10.jpg"
-    alt="Screen Illustrations" 
-    width="360">
+  <picture>
+    <source media="(min-width: 1158px)" srcset="
+                      ./images/portfolio/portfolio-desk-5-min.jpg 1x,
+                       ./images/portfolio/portfolio-desk-5@2x-min.jpg 2x">
+    <source media="(min-width: 768px)" srcset="
+                          ./images/portfolio/portfolio-tab-5-min.jpg 1x,
+                           ./images/portfolio/portfolio-tab-5@2x-min.jpg 2x">
+    <source media="(max-width: 767px)" srcset="
+                          ./images/portfolio/portfolio-mob-5-min.jpg 1x,
+                           ./images/portfolio/portfolio-mob-5@2x-min.jpg 2x">
+    <img src="./images/img10.jpg" alt="Screen Illustrations" width="360">
+  </picture>
     <p class="our-portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
       App · Exotic Fruit Ecommerce App ·
       Cloud Storage App</p>
@@ -466,22 +449,19 @@ problem to walk away with the perfect and creative solution.</p>
     </div>
   </li>
   <li class="our-portfolio-item">
-    <picture>
-      <source media="(min-width: 1158px)" srcset="
+    <div class="our-portfolio-picture-wrap">
+<picture>
+  <source media="(min-width: 1158px)" srcset="
                     ./images/portfolio/portfolio-desk-6-min.jpg 1x,
                      ./images/portfolio/portfolio-desk-6@2x-min.jpg 2x">
-      <source media="(min-width: 768px)" srcset="
+  <source media="(min-width: 768px)" srcset="
                         ./images/portfolio/portfolio-tab-6-min.jpg 1x,
                          ./images/portfolio/portfolio-tab-6@2x-min.jpg 2x">
-      <source media="(max-width: 767px)" srcset="
+  <source media="(max-width: 767px)" srcset="
                         ./images/portfolio/portfolio-mob-6-min.jpg 1x,
                          ./images/portfolio/portfolio-mob-6@2x-min.jpg 2x">
-    </picture>
-    <div class="our-portfolio-picture-wrap">
-    <img 
-    src="./images/img11.jpg"
-    alt="Online Courses"
-    width="360">
+<img src="./images/img11.jpg" alt="Online Courses" width="360">
+</picture>
     <p class="our-portfolio-item-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
       App · Exotic Fruit Ecommerce App ·
       Cloud Storage App</p>
@@ -496,7 +476,7 @@ problem to walk away with the perfect and creative solution.</p>
 </section>
 </main>
 
-<footer class="footer container">
+<footer class="footer">
   <div class="container footer-container">
     <div class="footer-description-container">
   <a class="logo-link footer-logo-link" href="./index.html">WEB<span class="logo-web-footer">Studio</span></a>
