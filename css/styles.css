@@ -615,7 +615,6 @@ padding: 0;
 
 @media screen and (min-width: 1158px) {
 
-
     .advantages {
         padding-top: 120px;
         padding-bottom: 120px;
@@ -628,6 +627,7 @@ padding: 0;
             display: flex;
             gap: 24px;
             flex-direction: row;
+            flex-wrap: nowrap;
         }
         .advantages-item {
             flex-basis: calc((100% - 72px) / 4);
